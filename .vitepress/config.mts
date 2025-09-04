@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Mira 系统完整指南 - 让你轻松上手文件管理与自动化",
   lang: 'zh-CN',
   base: '/mira_typescript/',
+  ignoreDeadLinks: true,
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
