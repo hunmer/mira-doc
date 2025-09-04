@@ -25,9 +25,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./mira-doc
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -57,7 +54,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: mira-doc/.vitepress/dist
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
