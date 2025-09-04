@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Mira 文档",
   description: "Mira 系统完整指南 - 让你轻松上手文件管理与自动化",
   lang: 'zh-CN',
-  base: '/mira_typescript/',
+  base: '/mira-doc/',
   ignoreDeadLinks: true,
   
   themeConfig: {
